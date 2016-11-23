@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Jason Feinstein <jason.feinstein@gmail.com>
+MAINTAINER nokok <nokok.kz@gmail.com> 
 
 RUN apt-get update
 RUN apt-get install -y nginx python python-dev python-pip
