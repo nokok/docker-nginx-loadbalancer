@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:16.04
 MAINTAINER nokok <nokok.kz@gmail.com> 
 
 RUN apt-get update
