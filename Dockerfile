@@ -4,6 +4,7 @@ MAINTAINER nokok <nokok.kz@gmail.com>
 RUN apt-get update
 RUN apt-get install -y nginx python python-dev python-pip
 
+RUN pip install --upgrade pip
 RUN pip install Jinja2
 
 RUN rm /etc/nginx/sites-enabled/default
